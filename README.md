@@ -16,7 +16,7 @@
 # Ruffle
 
 Ruffle is an Adobe Flash Player emulator written in the Rust programming language. Ruffle targets both the desktop and the web using WebAssembly.
-< br>
+<br>
 Solved issue 6075. Time in Ruffle was represented as f64. Changed the representation to std::time::Duration, with <a href = "https://github.com/razvananghel83">razvananghel83</a>, during 6th edition of Rust Workshop hackathon ( 23.03.2023 ).
 ## Table of Contents
 * [Project status](#project-status)
